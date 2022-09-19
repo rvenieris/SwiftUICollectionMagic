@@ -22,6 +22,11 @@ struct ContentView: View {
 					Image(systemName: "2.square.fill")
 					Text("Navigating")
 			}
+            SelectableCollection(matrix: calendarMatrix2Dic())
+                .tabItem {
+                    Image(systemName: "3.square.fill")
+                    Text("Selecting")
+                }
 		}
 		.font(.headline)
 	}

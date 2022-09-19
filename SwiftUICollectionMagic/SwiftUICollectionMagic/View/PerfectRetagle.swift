@@ -9,28 +9,24 @@
 import SwiftUI
 
 struct PerfectRetagle: View {
-	
-	var text:String
-	
+    var color:Color = .green
+    var cornerRadius:Double = 10
+    var aspectRatio:Double = 1
+	var text:String = "Place your text here"
+    
     var body: some View {
-		ZStack {
-			RoundedRectangle(cornerRadius: 20)
-				.foregroundColor(.green)
-			VStack {
-				HStack {
-					Text(text).font(.system(size: 40))
-						.lineLimit(1).padding()
-					Spacer()
-				}
-				Spacer()
-			}.minimumScaleFactor(0.1)
-		}.minimumScaleFactor(0.1)
-			.aspectRatio(0.8, contentMode: .fit)
+        ZStack {
+            RoundedRectangle(cornerRadius: cornerRadius)
+                .foregroundColor(color)
+            Text(text)
+                .lineLimit(1)
+        }.minimumScaleFactor(0.1)
+            .aspectRatio(aspectRatio, contentMode: .fit)
     }
 }
 
 struct PerfectRetagle_Previews: PreviewProvider {
     static var previews: some View {
-		PerfectRetagle(text: "Olá Mundo")
+        PerfectRetagle()
     }
 }

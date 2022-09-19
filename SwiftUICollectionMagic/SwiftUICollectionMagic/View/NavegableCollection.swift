@@ -42,10 +42,10 @@ struct NavegableCollection: View {
 
 
 struct RetangleList_Previews: PreviewProvider {
-	static var matrix = [["1", "2"],
-				  [ "3", "4", "5"],
-				  ["6"],
-				  ["7", "8"]]
+	static var matrix = [["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
+                         ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
+                         ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
+                         ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]]
 	static var previews: some View {
 		NavegableCollection(matrix: Self.matrix)
 	}

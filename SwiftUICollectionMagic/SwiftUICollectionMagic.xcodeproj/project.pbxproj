@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C99091E28D7F8B40013664F /* SelectableCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C99091D28D7F8B40013664F /* SelectableCollection.swift */; };
+		8C99093328D91A950013664F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C99093228D91A950013664F /* Extensions.swift */; };
 		BB99CEB724E245FD00F9E912 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB99CEB624E245FD00F9E912 /* AppDelegate.swift */; };
 		BB99CEB924E245FD00F9E912 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB99CEB824E245FD00F9E912 /* SceneDelegate.swift */; };
 		BB99CEBB24E245FD00F9E912 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB99CEBA24E245FD00F9E912 /* ContentView.swift */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C99091D28D7F8B40013664F /* SelectableCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectableCollection.swift; sourceTree = "<group>"; };
+		8C99093228D91A950013664F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		BB99CEB324E245FD00F9E912 /* SwiftUICollectionMagic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICollectionMagic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB99CEB624E245FD00F9E912 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB99CEB824E245FD00F9E912 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +94,7 @@
 				BB99CECD24E2467E00F9E912 /* RemovableAnimatedCollection.swift */,
 				BB99CECF24E2467E00F9E912 /* NavegableCollection.swift */,
 				BB99CECE24E2467E00F9E912 /* PerfectRetagle.swift */,
+				8C99091D28D7F8B40013664F /* SelectableCollection.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -99,6 +104,7 @@
 			children = (
 				BB99CEB624E245FD00F9E912 /* AppDelegate.swift */,
 				BB99CEB824E245FD00F9E912 /* SceneDelegate.swift */,
+				8C99093228D91A950013664F /* Extensions.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -183,10 +189,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB99CED424E246F800F9E912 /* DAO.swift in Sources */,
+				8C99093328D91A950013664F /* Extensions.swift in Sources */,
 				BB99CED024E2467E00F9E912 /* RemovableAnimatedCollection.swift in Sources */,
 				BB99CED124E2467E00F9E912 /* PerfectRetagle.swift in Sources */,
 				BB99CEB724E245FD00F9E912 /* AppDelegate.swift in Sources */,
 				BB99CEB924E245FD00F9E912 /* SceneDelegate.swift in Sources */,
+				8C99091E28D7F8B40013664F /* SelectableCollection.swift in Sources */,
 				BB99CEBB24E245FD00F9E912 /* ContentView.swift in Sources */,
 				BB99CED224E2467E00F9E912 /* NavegableCollection.swift in Sources */,
 			);
